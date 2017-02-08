@@ -1,0 +1,66 @@
+div.smallRow {
+  display: inline;
+  float: left;
+}
+
+div.smallRow input {
+  margin-left: 5px;
+}
+
+div.shoppingList {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #b19cd9;
+  width: 100%;
+  float: left;
+  clear: both;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+div.prices ul {
+  list-style: none;
+}
+
+li {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(255,255,255, 0.9);
+  padding: 3px;
+  margin: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+li:hover {
+  border: white;
+}
+ol ul {
+  background-color: #b99cd9;
+  font-size: 150%;
+}
+
+form {
+  margin-top: 5%;
+  background-color: #b19cd9;
+  padding: 5%;
+  border-style: ridge;
+  -webkit-box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
+  -moz-box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
+  box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
+}
+
+h3.changeH3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+
+i.fa-plus {
+  margin-top: 25%;
+}
+
+button#addButton {
+  margin-top: 90%;
+}
