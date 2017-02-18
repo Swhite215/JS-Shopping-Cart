@@ -3,10 +3,7 @@ div.smallRow {
   float: left;
 }
 
-div.smallRow input {
-  margin-left: 5px;
-}
-
+/* Sub-section div styling */
 div.shoppingList {
   border: 1px solid black;
   border-radius: 5px;
@@ -15,28 +12,37 @@ div.shoppingList {
   float: left;
   clear: both;
   margin-top: 5%;
-  padding: 2%;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+div.moveMe {
+  margin-top: 5px;
+  position: relative;
+  left: -8%;
 }
 
 div.prices ul {
   list-style: none;
+  padding: 0;
 }
 
+/* Appended Items Styling */
 li {
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 1px solid white;
+  border-radius: 1px;
   background-color: rgba(255,255,255, 0.9);
-  padding: 3px;
-  margin: 5px;
   margin-bottom: 10px;
   width: 100%;
+  font-weight: bold;
+  text-align: center;
 }
 
 li:hover {
   border: white;
 }
 ol ul {
-  background-color: #b99cd9;
+  background-color: #b19cd9;
   font-size: 150%;
 }
 

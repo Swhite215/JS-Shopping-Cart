@@ -71,7 +71,7 @@ function addItem() {
   parentList.appendChild(itemSlot); //Append LI Node to Parent Node
   priceList.appendChild(priceSlot); //Append Price Node to Parent Node
 }
-
+g
 function removeItem() {
   var container = listItemToRemove.parentNode;
   container.removeChild(listItemToRemove);
