@@ -2,12 +2,38 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #F1F0FF;
+  background-color: #F1F0FF !important;
+}
+
+/* Containers Styling */
+h1#pageTitle {
+  text-align: center;
+  font-size: 60px;
 }
 
 div.smallRow {
   display: inline;
   float: left;
+}
+
+
+/*form styling */
+form {
+  margin-top: 5%;
+  background-color: #b19cd9;
+  padding: 5%;
+  border-style: ridge;
+  -webkit-box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
+  -moz-box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
+  box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
+}
+
+i.fa-plus {
+  margin-top: 25%;
+}
+
+button#addButton {
+  margin-top: 90%;
 }
 
 /* Sub-section div styling */
@@ -35,6 +61,11 @@ div.prices ul {
 }
 
 /* Appended Items Styling */
+div.smallRow {
+  display: inline;
+  float: left;
+}
+
 li {
   border: 1px solid white;
   border-radius: 1px;
@@ -48,32 +79,14 @@ li {
 li:hover {
   border: white;
 }
+
 ol ul {
   background-color: #b19cd9;
   font-size: 150%;
 }
 
-form {
-  margin-top: 5%;
-  background-color: #b19cd9;
-  padding: 5%;
-  border-style: ridge;
-  -webkit-box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
-  -moz-box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
-  box-shadow: -8px 4px 5px 0px rgba(0,0,0,0.49);
-}
-
-h3.changeH3 {
+h3.listTitle {
   margin-top: 5px;
   margin-bottom: 5px;
   border-bottom: 1px solid black;
-}
-
-
-i.fa-plus {
-  margin-top: 25%;
-}
-
-button#addButton {
-  margin-top: 90%;
 }
