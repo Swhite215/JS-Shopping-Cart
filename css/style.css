@@ -1,3 +1,10 @@
+/* Global Styles */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #F1F0FF;
+}
+
 div.smallRow {
   display: inline;
   float: left;
