@@ -7,5 +7,5 @@ Use of vanilla JS to create an interactive Shopping Cart Form that adds items an
 ## Tools: 
 HTML, CSS, JS, Bootstrap
 
-##Growth Goals:
+##Growth Goal:
 Adding pure JS item removal
