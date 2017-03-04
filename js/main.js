@@ -1,44 +1,10 @@
-// var shopArray = [
-//
-// ]
-//
-// var item = function(name, price) {
-//   this.name = name;
-//   this.price = price;
-// }
-//
-// var apple = new item("Apple", 3.16);
-// var potato = new item("Potato", 1.28);
-// var cherries = new item("Cherry", 4.05);
-// var lettuce = new item("Lettuce", 1.47);
-// var tomato = new item("Tomato", 1.49);
-// var banana = new item("Banana", 1.19);
-//
-// shopArray.push(apple);
-// shopArray.push(potato);
-// shopArray.push(cherries);
-// shopArray.push(lettuce);
-// shopArray.push(tomato);
-// shopArray.push(banana);
-//
-// console.log(shopArray);
-//
-// var total = 0;
-// for (var i = 0; i < shopArray.length; i++) {
-//   console.log(shopArray[i].name + "'s costs " + shopArray[i].price + ".");
-//   total += shopArray[i].price;
-// }
-//
-// console.log(total);
-
 //Elements for event listeners.
 var button = document.getElementById("addButton");
-// var listItemToRemove = document.getElementsByClassName("removeMe");
 
 //Event Listeners
 button.addEventListener('click', addItem, false);
-// listItemToRemove.addEventListener('click', removeItem, false);
 
+//variable to store cart total.
 var cartTotal = 0;
 
 //Add Item Function
@@ -59,10 +25,10 @@ function addItem() {
   var priceValue = itemCost.value; //Value for price input.
   var priceTextNode = document.createTextNode(priceValue);//New text element with item price.
 
-  var cart = document.getElementById("cartTotal");
+  var cart = document.getElementById("cartTotal"); //Element for cart total.
 
-  cartTotal += Number(priceValue);
-  cart.value = cartTotal;
+  cartTotal += Number(priceValue); //Addiiton assignment to increase total.
+  cart.value = cartTotal; //assignment of value to DOM element for cart total
 
 
   itemSlot.appendChild(itemTextNode); //Append Item Text Node to Item LI
@@ -70,9 +36,4 @@ function addItem() {
 
   parentList.appendChild(itemSlot); //Append LI Node to Parent Node
   priceList.appendChild(priceSlot); //Append Price Node to Parent Node
-}
-g
-function removeItem() {
-  var container = listItemToRemove.parentNode;
-  container.removeChild(listItemToRemove);
 }
