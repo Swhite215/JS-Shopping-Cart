@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,29 +20,29 @@
               <h2 class="text-center">Shopping Cart Application: <i class="fa fa-shopping-cart" aria-hidden="true"></i> </h2><hr>
 
               <div class="row">
-              <div class="smallRow form-group col-xs-8 col-md-8">
-                <label for="addText">Add Item<input type="text" name="item" value="" id="addedItem" class="form-control" placeholder="Item"></label>
-                <br />
-                <label for="addText">Price<input type="number" name="item" value="" id="itemPrice" class="form-control" placeholder="Price"></label><label for="addButton"></label>
-              </div>
-
-              <div class="col-xs-4 col-md-4">
-                <label for="addButton"> <button type="button" id ="addButton"><i class="fa fa-plus" aria-hidden="true"></i></button></label>
-              </div>
-            </div>
-
-              <br>
-              <div class="shoppingList" id="viewList row">
-                <h3 class="text-center changeH3"> Shopping List: </h3>
-                <div class="col-xs-7 col-md-7 moveMe">
-                  <ol id ="parentList">
-
-                  </ol>
+                <div class="smallRow form-group col-xs-8 col-md-8">
+                  <label for="addText">Add Item<input type="text" name="item" value="" id="addedItem" class="form-control" placeholder="Item"></label>
+                <br>
+                  <label for="addText">Price<input type="number" name="item" value="" id="itemPrice" class="form-control" placeholder="Price"></label><label for="addButton"></label>
                 </div>
 
+                <div class="col-xs-4 col-md-4">
+                  <label for="addButton"> <button type="button" id ="addButton"><i class="fa fa-plus" aria-hidden="true"></i></button></label>
+                </div>
+              </div>
+
+              <br>
+
+              <div class="shoppingList" id="viewList row">
+                <h3 class="text-center changeH3"> Shopping List: </h3>
+                  <div class="col-xs-7 col-md-7 moveMe">
+                    <ol id ="parentList">
+
+                    </ol>
+                  </div>
+
                 <div class="col-xs-5 col-md-5 prices moveMe">
-                  <ul id = "priceList">
-                  </ul>
+                  <ul id = "priceList"></ul>
                   <hr>
                   <label for="total">Total:<input type="text" name="total" value="" id="cartTotal" class="form-control"></label>
                 </div>
@@ -58,7 +59,7 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 
 </html>
